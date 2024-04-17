@@ -14,6 +14,6 @@ async function getFact() {
         return res.data.setup;
     } catch (err) {
         console.log(err);
-        return "not found";
+        return "err cought";
     }
 }
